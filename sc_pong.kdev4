@@ -1,0 +1,3 @@
+[Project]
+Manager=KDevCMakeManager
+Name=sc_pong
