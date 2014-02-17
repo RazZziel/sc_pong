@@ -236,7 +236,7 @@ SDL_Surface *Graphics::renderTextTTF(const char *txt, const IndexedFont *fnt, in
 		TTF_SetFontStyle(font, style);
 	
 	
-	char *tok = strchr(txt, '_');
+	const char *tok = strchr(txt, '_');
 	
 	/* Text has a highlighted letter */
 	if(tok) {
